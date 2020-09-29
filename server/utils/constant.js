@@ -1,0 +1,5 @@
+module.exports={
+  PWD_SALT:'ZQQ_NODE',
+  PRIVATE_KEY:'ZQQ_TOKEN',
+  EXPIRESD:60*60*24
+}
