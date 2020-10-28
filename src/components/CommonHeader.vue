@@ -15,8 +15,8 @@
           text-color="#9d9d9d"
           active-text-color="#FFF"
         >
-          <el-menu-item index="/home">
-            <router-link to="/home"><i class="iconfont icon-home"></i>首页</router-link>
+          <el-menu-item index="/">
+            <router-link to="/"><i class="iconfont icon-home"></i>首页</router-link>
           </el-menu-item>
           <el-menu-item index="/article" v-if="isSignIn===1">
             <router-link to="/article" >我的博客</router-link>
